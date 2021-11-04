@@ -1,0 +1,38 @@
+{
+  "name": "whethertheweatherbewarm",
+  "version": "1.0.0",
+  "description": "Will what's app you whether the weather is warm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJMrqs/WhetherTheWeatherBeWarm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JJMrqs/WhetherTheWeatherBeWarm/issues"
+  },
+  "homepage": "https://github.com/JJMrqs/WhetherTheWeatherBeWarm#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.61.0",
+    "wepack-cli": "^0.0.1-security"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
