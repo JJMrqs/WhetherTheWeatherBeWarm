@@ -4,7 +4,10 @@
   "description": "Will what's app you whether the weather is warm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "react-dev": "webpack -d --watch",
+    "start": "npx nodemon server/index.js"
   },
   "repository": {
     "type": "git",
