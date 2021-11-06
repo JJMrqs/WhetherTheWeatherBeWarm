@@ -10,7 +10,7 @@ app.use(cors());
 
 // http requests go here
 app.get('/', (req, res) => {
-  res.send('Twiliooooo');
+  res.send('Twilioooo');
 });
 
 const port = 3000;
